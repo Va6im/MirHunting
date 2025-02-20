@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МирОхотник</title>
+    <link rel="stylesheet" href="stylex/stylex.css">
+    <link rel="stylesheet" href="stylex/slider.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#!" class="header__logo">МирОхотник</a>
+        <ul class="header__nav">
+            <li><a href="#!">Главная</a></li>
+            <li><a href="#!">Товар</a></li>
+            <li><a href="#!">О себе</a></li>
+            <li><a href="#!">Контакты</a></li>
+        </ul>
+            <a href="php/register.php" class="btn">Регистрация</a> 
+    </header>
+    
+    <div class="slider">
+        <img src="photo/slide1.jpg" alt="Slaid" class="slider__image active">       
+        <img src="photo/slide2.jpg" alt="Slaid" class="slider__image">       
+        <img src="photo/slide3.jpg" alt="Slaid" class="slider__image">       
+        <div class="slider__text">
+            <p>МирОхотник в Иркутске! Пока только на левом берегу.</p>
+            <p>Доставку делаем с 10:00 до 19:30</p>
+        </div>
+    </div>
+    
+    <section class="pi" id="osibe">
+        <h2 class="h2">О себе</h2>
+        <p class="p">Наша компания вы найдете все необходимое для успешной рыбалки и охоты в Иркутске: снаряжение, одежду, обувь, аксессуары и советы от опытных специалистов. Добро пожаловать в мир приключений на природе!</p>
+    </section>
+    
+    <section class="pi" id="tovar">
+        <h2 class="header__tovar">Товар</h2>
+        <div class="header__list">
+            <div class="product">
+                <a href="php/fish.php" class="product__btn">Товары для рыбалки</a>
+            </div>
+            <div class="product">
+                <a href="php/hunting.php" class="product__btn">Товары для охоты</a>
+            </div>
+        </div>  
+    </section>
+    
+    <section class="pi" id="contat">
+        <h2 class="h2">Контакты</h2>
+        <p>Адрес: ул. Примерная, д. 123</p>
+        <p>Телефон: +7 (123) 456-7890</p>
+        <p>Email: info@rybolov-ohota.ru</p>
+    </section>
+    
+    <footer>
+        &copy; 2020-2024 год. МирОхотник.ру - интернет-магазин товаров для рыболовов и охотников
+    </footer>
+
+    <script src="JS/slider.js"></script>
+</body>
+</html>

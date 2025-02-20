@@ -1,0 +1,13 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+.slider__image {
+    height: 500px;
+    width: 100%; 
+    object-fit: cover; 
+    display: none; 
+}
+.slider__image.active {
+    display: block;
+}

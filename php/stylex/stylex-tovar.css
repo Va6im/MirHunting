@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    width: 165px;
+    height: 49px;
+    background: #F2F2F2; /* Измените цвет кнопки */
+    color: black; /* Цвет текста на кнопке */
+    border-radius: 5px;
+}
+
+.products_btn {
+    display: flex;
+    justify-content: center; /* Центрируем текст внутри кнопки */
+    align-items: center; /* Центрируем текст по вертикали */
+    font-size: 16px;
+    width: 165px; /* Ширина кнопки */
+    height: 49px; /* Высота кнопки */
+    background:  #F2F2F2; /* Градиентный фон */
+    color: black; /* Цвет текста на кнопке */
+    border: none; /* Убираем границу */
+    border-radius: 25px; /* Закругленные углы */
+    margin: 20px 0; /* Отступы сверху и снизу для отделения от других элементов */
+    text-align: center;
+}
+
+.products_btn:hover{
+    background: white;
+}
+
+.btn:hover {
+    background: white; /* Цвет при наведении */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Добавьте отступы */
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__nav {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+}
+
+
+
+.products {
+    display: flex; /* Используем flexbox */
+    flex-wrap: wrap; /* Позволяем элементам переноситься на новую строку */
+    justify-content: center; /* Центрируем товары по горизонтали */
+    margin: auto;
+    padding: 0;
+    max-width: 1200px; /* Максимальная ширина контейнера */
+}
+
+.product {
+    display: flex; /* Используем flexbox */
+    flex-direction: column; /* Располагаем элементы в колонку */
+    align-items: center; /* Центрируем по горизонтали */
+    justify-content: flex-start; /* Центрируем элементы по вертикали */
+    flex: 0 0 21%; /* Устанавливаем ширину для каждого товара (21% для 4 колонок с отступами) */
+    margin: 10px; /* Отступы между товарами */
+    background-color: #fff;; /* Тень для товара */
+    border-radius: 8px; /* Закругленные углы для товара */
+    text-align: center; /* Центрируем текст внутри товара */
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+img {
+    width: 150px;
+}
+section p{
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black; /* Цвет фона подвала */
+    color: white; /* Цвет текста подвала */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
